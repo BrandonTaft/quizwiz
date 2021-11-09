@@ -407,7 +407,7 @@ body{
 
 #logotype {
   margin-left: auto;
-  margin-right: 41%;
+  margin-right: 40%;
   margin-top: 5px;
   margin-bottom: 5px;
   align-self: center;
@@ -423,7 +423,7 @@ body{
   color: silver;
   flex-direction: row;
   display: block;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -441,7 +441,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
+  text-align: center;
   opacity: 1;
   border: 2px solid silver;
   width: 100%;
@@ -612,20 +612,7 @@ body{
 }
 
 
-.rowBlurb{
-  color: white;
-  backdrop-filter: blur(5px);
-  border-radius: 15px;
-  background-color: rgba(255, 255, 255, .15);
-  backdrop-filter: blur(5px);
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid black;
-  height: 40%;  
-  text-align: center;
-  padding-bottom: 2%;
-}
+
 
 #lead-logo{
   height:100px
@@ -667,47 +654,83 @@ body{
   color: #041f68;
 }
     
+#pro-btm{
+  border: solid #041f68;
+  background-color: #ffffff26;
+  color: #c0c0c0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+
+
 
 #profile-name{
   display: flex;
+  justify-content: center;
+  background-color: #041f68;
   color: white;
-  margin-top: 0%;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  backdrop-filter: blur(5px);
-  border-radius: 15px;
-  background-color: #3276ad;
-  backdrop-filter: blur(5px);
-  color: silver;     
-  text-align: left;
-  
-  /* border: 2px solid black;    */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   text-align: -webkit-center;
-  width: fit-content;
   padding: inherit;
-  transition: all ease-in-out .6s;
   font-variant-caps: petite-caps;
   padding-left: 5%;
   padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  height: 100%;
 }
 
-
-#profile-name:hover{
-  background-color: #3276ad;
+.rowBlurb{
+  color: white;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+  height: 100%;  
+  text-align: center;
 }
 
+#carousel-caption{
+  padding-bottom: 7%;
+}
+
+#carousel-caption i{
+  color: gold;
+  font-size: larger;
+}
+
+#profile-name i{
+  color: gold;
+}
+
+#profile-page{
+  padding-bottom: 3%;
+}
+/*#profile-name:hover{
+  }
 #profile-name p{
   color: #041f68;
   font-size: x-large;
 }
-
 #profile-name p:hover{
   color: white;
-}
+} */
 
-#profile-name i{
-  color: white;
+#leaderboard-body{
+  /* padding-bottom: 3%; */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #info-container{
@@ -761,9 +784,6 @@ body{
 }
 
 /***********Leaderboard***********/
-#leaderboard-body{
-  padding-bottom: 3%;
-}
 
 #carousel-caption{
  
@@ -833,6 +853,7 @@ table {
 
 #lead-table{
   margin-bottom: 5%;
+  margin-top: 7%;
   padding: 5%;
 }
 
@@ -840,11 +861,228 @@ table {
 
 @media only screen  and (max-device-width : 284px){
 
-#login-title{
-  padding-top: 12%;
-  margin-bottom: 5%;
-  font-size: 40px;
-}    
+  #login-title{
+    margin-bottom: 8%;
+    width: 75%;
+  }
+  
+  #logBody{
+    padding-top: 0%;
+  }
+      
+  .log-RegText {
+    width: 85%;
+    height: fit-content;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 2px solid;
+    padding: 10px;   
+  }
+  
+  .log-Btn {
+    height: 50px;
+    width: 55%;
+    font-size: 20px;     
+    border-radius: 10px;   
+  }
+  
+  #google-btn{
+    height: 50px;
+    width:70%;
+    margin-top: 2%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+        
+  #instagram-btn{
+    height: 50px;
+    width:70%;        
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+        
+  #facebook-btn{
+    height: 50px;
+    width:70%;      
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+        
+  #github-btn{
+    height: 50px;
+    width:70%;      
+    margin-bottom: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .regLink{
+    font-size: 25px;
+    color: white;
+  }
+  
+  #login-title{
+    padding-top: 15%;
+    margin-bottom: 10%;
+    font-size: 60px;
+  }
+  
+  .HomeBlurb {
+    color: white;
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    height: fit-content;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    color: silver;     
+    text-align: left;
+    opacity: .85;
+    border: 2px solid black;   
+    padding: 10px;
+    min-width: fit-content;
+  }
+  
+  .Instructions{
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 1%;
+    padding-right: 1%;
+  } 
+  
+  #p2{
+    color: #041f68;
+  }
+  
+  .fill2 {
+   
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    height: 310px; 
+    width: -webkit-fill-available;
+    
+  }
+  
+  .fill2 img {
+    /* min-height: 60%;  */
+    object-fit: cover; 
+    width: -webkit-fill-available;
+  }
+  
+  #logotype {
+    display: none;
+    margin-left: auto;
+    margin-right: 35%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-self: center;
+    width: 250px;
+  }
+  
+  #navBtn{
+    height: 33px;
+    margin-right: 0%;
+  }
+  
+  #avatar-container{
+    flex-direction: column-reverse;
+  
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #NavBarBackground{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #navBtn{
+    height: 50px;
+    margin-right: 10%;
+  }
+  
+  
+  #carousel-caption {
+    padding-bottom: 15%;
+  }
+  
+  .rowBlurb{
+  
+  }
+  
+  #pro-btm{
+    width: 98%;
+  }
+  
+  table td{
+    border: 4px solid #041f68;
+    width: 50%;
+    color: white;
+    font-size: large;
+    height: 70px;
+    padding-left: 2%;
+    font-family: cursive;
+    font-weight: bold;
+    
+  }
+  
+  #navBtn{
+    height: 30px;
+    margin-right: 10%;
+  
+  }
+  
+  #top-ten{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #wrapbox{
+    display: flex;
+    flex-direction: column-reverse;
+  
+  }
+  
+  .grid-item{
+    width: 140px;
+    height: 70px;
+    font-size: large;
+    padding-top: 10px;
+  }
+  
+  .grid-container{
+    margin-top: 3%;
+   padding: 0%;
+    grid-row-gap: 10px;
+  }
+  
+  .fill{
+    margin-left: 32%;
+    margin-top: 5%;
+  }
+  
+  #quizes{
+    width: 95%;
+  }
+  
+  #q-btn{
+    padding: 0%;
+  }
+  
 }
 
 @media only screen  and (min-device-width : 285px) and (max-device-width : 320px){
@@ -1001,9 +1239,16 @@ table {
 }
 
 
+#carousel-caption {
+  padding-bottom: 15%;
+}
+
 .rowBlurb{
-  width: 90%;
-  margin-left: 5%;
+
+}
+
+#pro-btm{
+  width: 98%;
 }
 
 table td{
@@ -1021,6 +1266,8 @@ table td{
 #navBtn{
   height: 30px;
   margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 
 }
 
@@ -1048,10 +1295,11 @@ table td{
   margin-top: 3%;
  padding: 0%;
   grid-row-gap: 10px;
+  margin-left: 5%;
 }
 
 .fill{
-  margin-left: 32%;
+  margin-left: 25%;
   margin-top: 5%;
 }
 
@@ -1161,10 +1409,19 @@ table td{
   margin-right: 13%;
 }
 
+#carousel-caption {
+  padding-bottom: 15%;
+}
 
 .rowBlurb{
-  width: 90%;
+
 }
+
+#pro-btm{
+  width: 98%;
+}
+
+
 
 table td{
   border: 4px solid #041f68;
@@ -1383,9 +1640,18 @@ table td{
 }
 
 
-.rowBlurb{
-  width: 90%;
+#carousel-caption {
+  padding-bottom: 15%;
 }
+
+.rowBlurb{
+
+}
+
+#pro-btm{
+  width: 98%;
+}
+
 
 table td{
   border: 4px solid #041f68;
@@ -1432,12 +1698,12 @@ table td{
 
 .grid-container{
   margin-top: 1%;
- margin-left: 1%;
+ margin-left: 5%;
   grid-row-gap: 10px;
 }
 
 .fill{
-  margin-left: 32%;
+  margin-left: 22%;
   margin-top: 5%;
 }
 
@@ -1581,9 +1847,11 @@ table td{
 }
 
 #navBtn{
-  height: 33px;
-  margin-right: 0%;
+  height: 40px;
+  margin-right: 13%;
   margin-left: 1.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 #avatar-container{
@@ -1601,15 +1869,27 @@ table td{
   justify-content: space-evenly;
 }
 
-#navBtn{
-  height: 50px;
-  margin-right: 13%;
+
+#carousel-caption p{
+  font-size: larger;
 }
 
+#carousel-caption i{
+  font-size: x-large;
+}
+
+#carousel-caption {
+  padding-bottom: 15%;
+}
 
 .rowBlurb{
-  width: 90%;
+
 }
+
+#pro-btm{
+  width: 98%;
+}
+
 
 
 table td{
@@ -1624,11 +1904,6 @@ table td{
   
 }
 
-#navBtn{
-  height: 50px;
-  margin-right: 13%;
-
-}
 
 #top-ten{
   padding: 0%;
@@ -1652,12 +1927,12 @@ table td{
 
 .grid-container{
   margin-top: 2%;
-  margin-left: 5%;
+  
   grid-row-gap: 10px;
 }
 
 .fill{
-  margin-left: 32%;
+  margin-left: 25%;
   margin-top: 5%;
 }
 
@@ -1797,7 +2072,7 @@ table td{
 
 #logotype {
   margin-left: auto;
-  margin-right: 35%;
+  margin-right: 32%;
   margin-top: 5px;
   margin-bottom: 5px;
   align-self: center;
@@ -1869,11 +2144,31 @@ table td{
   
  }
 
- .rowBlurb{
+ #carousel-caption p{
+  font-size: larger;
+}
+
+#carousel-caption i{
+  font-size: x-large;
+}
+
+ #carousel-caption {
+  padding-bottom: 15%;
+}
+
+.rowBlurb{
+
+}
+
+#pro-btm{
+  width: 98%;
+}
+ 
+ /* .rowBlurb{
   width: 100%;
   border: none;
   border-radius: 15px;
-}
+} */
 
 #leaderboard-body {
   padding-bottom: 0%; 
@@ -2035,11 +2330,31 @@ table td{
   
  }
 
- .rowBlurb{
+ #carousel-caption p{
+  font-size: x-large;
+}
+
+#carousel-caption i{
+  font-size: xx-large;
+}
+
+ #carousel-caption {
+  padding-bottom: 15%;
+}
+
+.rowBlurb{
+
+}
+
+#pro-btm{
+  width: 92%;
+}
+
+ /* .rowBlurb{
    width: 100%;
    border: none;
    border-radius: 15px;
- }
+ } */
 
  #leaderboard-body {
    padding-bottom: 0%; 
@@ -2069,7 +2384,7 @@ table td{
 }
 
 #logotype{
-  margin-right: 38%;
+  margin-right: 37%;
 }
 
 .log-Btn{
@@ -2086,6 +2401,10 @@ table td{
 @media only screen and (min-device-width:1280px) and (max-device-width:1439px){
 #logBody{
   padding-top: 2%;
+}
+
+#logotype{
+  margin-right: 40%;
 }
 
 .log-Btn{
@@ -2183,13 +2502,12 @@ padding-top: 7%};
   font-size:850px;
   padding-top: 0%;
   margin-bottom: 3%;
-  width: 25%;
-  margin-top: 10%;
+  width: 35%;
 }
   
 .log-RegText {
   width: 35%;
-  height: 50px;
+  height: 40px;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -2251,11 +2569,19 @@ padding-top: 7%};
   padding-top: 10%;
 }
 
+#pro-btm{
+  width: 70%;
+}
+
 }
 
 @media only screen and (min-device-width:1721px) and (max-device-width:2000px){
 #logBody{
   padding-top: 3%;
+}
+
+#pro-btm{
+  width: 70%;
 }
 
 #register-container
@@ -2268,7 +2594,6 @@ padding-top: 7%};
   padding-top: 0%;
   margin-bottom: 5%;
   width: 35%;
-  margin-top: 2%;
 }
 
 .log-RegText {
@@ -2346,6 +2671,27 @@ padding-top: 7%};
 @media only screen and (min-device-width:2001px){
 .navBar{
   margin-bottom: 2%;
+}
+
+#pro-btm{
+  width: 50%;
+}
+
+.fill2{
+  width: 70%;
+}
+
+.fill2 img{
+  width: 60%;
+
+}
+
+.navBar{
+  margin-bottom: 7%;
+}
+
+.HomeBlurb{
+  width: 60%;
 }
 
 #login-title{
@@ -2557,14 +2903,26 @@ padding-top: 7%};
 }
 
 #navBtn{
-  height: 50px;
-  margin-right: 12.5%;
+  height: 40px;
+  margin-right: 11.5%;
+  margin-left: 1.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
+
+#carousel-caption {
+  padding-bottom: 15%;
+}
 
 .rowBlurb{
-  width: 90%;
+
 }
+
+#pro-btm{
+  width: 98%;
+}
+
 
 #wrapbox{
   display: flex;
@@ -2585,7 +2943,7 @@ padding-top: 7%};
 }
 
 .fill{
-  margin-left: 32%;
+  margin-left: 25%;
   margin-top: 5%;
 }
 

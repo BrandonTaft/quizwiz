@@ -56,7 +56,7 @@ function Profile(props) {
 
 
   return (
-    <div id=" profile-page">
+    <div id="profile-page">
       <div id="top-container">
         <NavBar />
       </div>
@@ -108,7 +108,7 @@ function Profile(props) {
               <div id="carousel-caption">
                 <h3>First Place QuizWiz</h3>
                 <p>You are the Gandalf of all the quiz wizards, a true Quizard!</p>
-                {firstPlace.username} : {firstPlace.score}
+                <i>{firstPlace.username} : {firstPlace.score}</i>
               </div>
 
             </Carousel.Item>
@@ -125,8 +125,7 @@ function Profile(props) {
               <div id="carousel-caption">
                 <h3>Second Place QuizWiz</h3>
                 <p>good job, you are almost to the top!</p>
-
-                {secondPlace.username} : {secondPlace.score}
+                <i>{secondPlace.username} : {secondPlace.score}</i>
               </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -141,7 +140,7 @@ function Profile(props) {
               <div id="carousel-caption">
                 <h3>Third Place QuizWiz</h3>
                 <p>Not bad, but you can keep pushing!.</p>
-                {thirdPlace.username} : {thirdPlace.score}
+                <i>{thirdPlace.username} : {thirdPlace.score}</i>
               </div>
             </Carousel.Item>
           </Carousel>
