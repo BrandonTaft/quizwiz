@@ -38,16 +38,16 @@ https://user-images.githubusercontent.com/86688411/140661143-ea00f393-fde1-4329-
  
   <br />
 
- <img width="45%" src="https://github.com/BrandonTaft/Quizwiz/blob/main/quiz-log.png" />
+ <img width="45%" src="https://github.com/BrandonTaft/Quizwiz/blob/deploy/quiz-log.png" />
   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-<img width="45%"  src="https://github.com/BrandonTaft/Quizwiz/blob/main/quiz.png" />
+<img width="45%"  src="https://github.com/BrandonTaft/Quizwiz/blob/deploy/quiz.png" />
   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
   <br />
   <br />
   <br />
-<img width="45%"  src="https://github.com/BrandonTaft/Quizwiz/blob/main/quizhome.png" />
+<img width="45%"  src="https://github.com/BrandonTaft/Quizwiz/blob/deploy/quizhome.png" />
   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-<img width="45%"  src="https://github.com/BrandonTaft/Quizwiz/blob/main/quizprofile.png" />
+<img width="45%"  src="https://github.com/BrandonTaft/Quizwiz/blob/deploy/quizprofile.png" />
    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
 </div>
 
