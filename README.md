@@ -32,7 +32,7 @@ User can then navigate to the home page where you choose the category of your qu
 
  
  _____
-<h1 align='center'><a align='center' href="https://brandontaft.surge.sh" >Check Out My Portfolio</a></h1>  
+<h2 align='center'><a align='center' href="https://brandontaft.surge.sh" >Check Out My Portfolio</a></h2>  
 
 https://user-images.githubusercontent.com/86688411/140661143-ea00f393-fde1-4329-89bb-278e557a897c.mp4
  
