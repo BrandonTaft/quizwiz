@@ -32,8 +32,7 @@ User can then navigate to the home page where you choose the category of your qu
 
  
  _____
-  
-<a align='center' href="https://brandontaft.surge.sh" >Check Out My Portfolio</a>  
+<h2 align='center'><a align='center' href="https://brandontaft.surge.sh" >Check Out My Portfolio</a></h2>  
 
 https://user-images.githubusercontent.com/86688411/140661143-ea00f393-fde1-4329-89bb-278e557a897c.mp4
  
@@ -52,7 +51,5 @@ https://user-images.githubusercontent.com/86688411/140661143-ea00f393-fde1-4329-
    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
 </div>
 
-
  <h2 align="center">Thank You For Stopping By!</h2> 
 <p align='center'>For enquiries or empolyment oppurtunities, please reach out at <a href="mailto:btaftcan@gmail.com">btaftcan@gmail.com</a> or over on <a href="https://www.linkedin.com/in/brandonmtaft">LinkedIn</a>.</p>
-
