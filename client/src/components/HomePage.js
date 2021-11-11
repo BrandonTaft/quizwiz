@@ -39,7 +39,7 @@ function HomePage() {
                 </div>
 
                 <div class="grid-container">
-                    <a class="grid-item" href="/quiz/9">
+                    <a class="grid-item" href=https://damp-spire-28696.herokuapp.com/quiz/9">
                         <FontAwesomeIcon icon={faBrain} />
                         <br></br>
                         General Info
