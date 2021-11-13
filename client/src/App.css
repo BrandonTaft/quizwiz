@@ -39,8 +39,8 @@ body{
   padding: 10px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  margin-left: 10%;
-  margin-right: 3%;
+  margin-left: 3%;
+  margin-right: 9%;
   width: 40%;
 }
 
@@ -601,7 +601,7 @@ body{
   border-radius: 15px;
   background: #041f68;
   backdrop-filter: blur(5px);
-  width: 45%;
+  width: 55%;
   padding-top: 1%;
   margin-left: auto;
   margin-right: auto;
@@ -865,6 +865,13 @@ table {
     margin-bottom: 8%;
     width: 75%;
   }
+  #popup-2{
+    width: 75%;
+  }
+
+  #popup-2{
+    width: 75%;
+  }
   
   #logBody{
     padding-top: 0%;
@@ -1094,6 +1101,10 @@ table {
 #logBody{
   padding-top: 0%;
 }
+
+#popup-2{
+  width: 75%;
+}
     
 .log-RegText {
   width: 85%;
@@ -1152,7 +1163,7 @@ table {
 }
 
 #login-title{
-  padding-top: 15%;
+ 
   margin-bottom: 10%;
   font-size: 60px;
 }
@@ -1293,9 +1304,9 @@ table td{
 
 .grid-container{
   margin-top: 3%;
+  margin-left: 5%;
  padding: 0%;
   grid-row-gap: 10px;
-  margin-left: 5%;
 }
 
 .fill{
@@ -1313,20 +1324,27 @@ table td{
 
 }
 
-@media only screen and (min-device-width : 321px) and (max-device-width : 359px){
+@media only screen and (min-device-width : 321px) and (max-device-width : 361px){
 #login-title{
   padding-top: 2%;
   margin-bottom: 5%;
 }
 
-.log-RegText{
-  height: fit-content;
+#login-title{
+ margin-top: 4%;
+  width: 85%;
 }
 
-#login-title{
-  padding-top: 15%;
-  margin-bottom: 10%;
-  font-size: 60px;
+#lead-list{
+  margin-top: 20%;
+}
+
+#popup-2{
+  width: 75%;
+}
+
+.log-RegText{
+  height: fit-content;
 }
 
 .HomeBlurb {
@@ -1463,7 +1481,7 @@ table td{
 
 .grid-container{
   margin-top: 2%;
-  margin-left: 5%;
+  margin-left: 4%;
   grid-row-gap: 10px;
 }
 
@@ -1481,9 +1499,43 @@ table td{
   padding: 0%;
 }
 
+#google-btn{
+  height: 50px;
+  width:70%;
+  margin-top: 2%;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+      
+#instagram-btn{
+  height: 50px;
+  width:70%;        
+  margin-bottom: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+      
+#facebook-btn{
+  height: 50px;
+  width:70%;      
+  margin-bottom: 12px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+      
+#github-btn{
+  height: 50px;
+  width:70%;      
+  margin-bottom: 12px;
+  border-radius: 10px;
+  font-size: 14px;
 }
 
-@media only screen and (min-device-width : 360px) and (max-device-width : 410px) {
+
+}
+
+@media only screen and (min-device-width : 362px) and (max-device-width : 410px) {
 #login-title{
   margin-bottom: 5%;
   width: 75%;
@@ -1492,7 +1544,15 @@ table td{
 #logBody{
   padding-top: 3%;
 }
+
+#lead-list{
+  margin-top: 20%;
+}
     
+#popup-2{
+  width: 75%;
+}
+
 .log-RegText {
   width: 85%;
   height: fit-content;
@@ -1553,8 +1613,8 @@ table td{
 }  
 
 #login-title{
-  padding-top: 15%;
-  margin-bottom: 10%;
+  padding-top: 2%;
+  margin-bottom: 7%;
   font-size: 60px;
 }
 
@@ -1725,6 +1785,15 @@ table td{
 
 #logBody{
   padding-top: 3%;
+}
+
+#lead-list{
+  margin-top: 20%;
+}
+
+
+#popup-2{
+  width: 75%;
 }
     
 .log-RegText {
@@ -1927,7 +1996,7 @@ table td{
 
 .grid-container{
   margin-top: 2%;
-  
+  margin-left: 10%;
   grid-row-gap: 10px;
 }
 
@@ -2213,6 +2282,10 @@ table td{
   width: 60%;
 }
 
+#lead-list{
+  margin-top: 10%;
+}
+
 .log-Btn{
   margin-bottom: 2%;
   margin-top: 2%;
@@ -2495,7 +2568,7 @@ padding-top: 7%};
 
 @media only screen and (min-device-width:1440px) and (max-device-width:1720px){
 #logBody{
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
 #login-title{
@@ -2577,7 +2650,7 @@ padding-top: 7%};
 
 @media only screen and (min-device-width:1721px) and (max-device-width:2000px){
 #logBody{
-  padding-top: 3%;
+  padding-top: 1%;
 }
 
 #pro-btm{
@@ -2810,9 +2883,9 @@ padding-top: 7%};
 @media only screen and (min-device-height : 720px) and (max-device-height : 811px){
 #login-title{
   width: 70%;
-  padding-top: 7%;
-  margin-bottom: 15%;
-  font-size: 60px;
+  padding-top: 3%;
+  margin-bottom: 8%;
+  
 }
 
 #logBody{
@@ -2830,8 +2903,8 @@ padding-top: 7%};
 .HomeBlurb {
   color: white;
   margin-top: 10%;
-  margin-left: 0%;
-  margin-right: 2%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 3%;
   height: fit-content;
   backdrop-filter: blur(5px);
@@ -2939,6 +3012,7 @@ padding-top: 7%};
 
 .grid-container{
   margin-top: 5%;
+  margin-left: 6%;
   
 }
 
@@ -2954,6 +3028,10 @@ padding-top: 7%};
 
 #q-btn{
   padding: 0%;
+}
+
+#lead-list{
+  margin-top: 25%;
 }
 
 }
