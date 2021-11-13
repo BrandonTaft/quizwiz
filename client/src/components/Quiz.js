@@ -37,33 +37,33 @@ function StartQuiz() {
 
   function gamesOver() {
     let randomizer = Math.floor(Math.random() * 72)
-		console.log(randomizer)
-    finaltempscore = currentscore*7*randomizer
+    console.log(randomizer)
+    finaltempscore = currentscore * 7 * randomizer
     setfinalscore(finaltempscore)
     console.log(finaltempscore)
 
-		fetch("https://damp-spire-28696.herokuapp.com/api/userscore?username="+wizardName)
-    .then(response => response.json())
-    .then(result => {
-			console.log("users high score is:"+result.score)
-			sethighscore(result.score)
-			
-			})
-    .catch(error => console.log('error', error));
-    
+    fetch("https://damp-spire-28696.herokuapp.com/api/userscore?username=" + wizardName)
+      .then(response => response.json())
+      .then(result => {
+        console.log("users high score is:" + result.score)
+        sethighscore(result.score)
+
+      })
+      .catch(error => console.log('error', error));
+
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     var requestOptions = {
       method: 'POST',
       headers: myHeaders,
-      body: JSON.stringify({"userName": wizardName, "score": finaltempscore}),
+      body: JSON.stringify({ "userName": wizardName, "score": finaltempscore }),
       redirect: 'follow'
     };
-    
+
     fetch("https://damp-spire-28696.herokuapp.com/api/submit", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
   }
 
   function playquiz() {
@@ -134,8 +134,8 @@ function StartQuiz() {
   }
 
   useEffect(() => {
-		setwizardName(localStorage.getItem ('wizardName'))
-		console.log(wizardName)
+    setwizardName(localStorage.getItem('wizardName'))
+    console.log(wizardName)
     console.log(currentscore);
     if (questions.length === 0) {
       getquestions();
@@ -147,71 +147,71 @@ function StartQuiz() {
   }, [quizfinished, currentscore, highscore]);
 
   return (
-  
-  <div id="quiz-page"> 
-    <div>
-        <NavBar />
-    </div>
-    <div id="quizes">
-      <div style={{ height: "100%", color: "whitesmoke", textAlign: "center" }}>
-        {quizfinished != true ? (
-          <div>
-            <div className = "quizQuestion"> {currentquestion}</div>
-            {correctanswer != null ? null : (
-              <Button onClick={() => playquiz()}>Start Quiz </Button>
-            )}
 
-            
-            <br />
-            <br />
-            {correctanswer != null ? (
-              <ButtonGroup
-                className="ButtonGroup"
-                vertical
-                block
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  maxWidth: "90%"
-                }}
-              >
-                <Button onClick={() => checkAnswer(0)} id="q-btn">{answers[0]}</Button>
-                <br />
-                <Button onClick={() => checkAnswer(1)}id="q-btn">{answers[1]}</Button>
-                <br />
-                <Button onClick={() => checkAnswer(2)}id="q-btn">{answers[2]}</Button>
-                <br />
-                <Button onClick={() => checkAnswer(3)}id="q-btn">{answers[3]}</Button>
-                <br />
-              </ButtonGroup>
-            ) : null}
-          </div>
-        ) : (
-          <div>
-            <Link to={{ pathname: `/homepage` }}>
-              <Button id="sub-btn">
-                <div>Return Home</div>
-              </Button>
-            </Link>
-            <Popup modal trigger={<Button id="sub-btn">Submit Quiz</Button>}>
-              {" "}
-              <div id="final-blurb">
-              <h1>Good Job!</h1>
-              Your score was {finalscore}<br />
-              Your previous high score is {highscore}
-              
-          </div>
-          {" "}
-            </Popup>
-          </div>
-        )}
+    <div id="quiz-page">
+      <div>
+        <NavBar />
       </div>
-      <div className="fill-quiz">
-        <img src="/wiz1.png" />
-      </div> 
+      <div id="quizes">
+        <div style={{ height: "100%", color: "whitesmoke", textAlign: "center" }}>
+          {quizfinished != true ? (
+            <div>
+              <div className="quizQuestion"> {currentquestion}</div>
+              {correctanswer != null ? null : (
+                <Button onClick={() => playquiz()}>Start Quiz </Button>
+              )}
+
+
+              <br />
+              <br />
+              {correctanswer != null ? (
+                <ButtonGroup
+                  className="ButtonGroup"
+                  vertical
+                  block
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    maxWidth: "90%"
+                  }}
+                >
+                  <Button onClick={() => checkAnswer(0)} id="q-btn">{answers[0]}</Button>
+                  <br />
+                  <Button onClick={() => checkAnswer(1)} id="q-btn">{answers[1]}</Button>
+                  <br />
+                  <Button onClick={() => checkAnswer(2)} id="q-btn">{answers[2]}</Button>
+                  <br />
+                  <Button onClick={() => checkAnswer(3)} id="q-btn">{answers[3]}</Button>
+                  <br />
+                </ButtonGroup>
+              ) : null}
+            </div>
+          ) : (
+            <div>
+              <Link to={{ pathname: `/homepage` }}>
+                <Button id="sub-btn">
+                  <div>Return Home</div>
+                </Button>
+              </Link>
+              <Popup modal trigger={<Button id="sub-btn">Submit Quiz</Button>}>
+                {" "}
+                <div id="final-blurb">
+                  <h1>Good Job!</h1>
+                  Your score was {finalscore}<br />
+                  Your previous high score is {highscore}
+
+                </div>
+                {" "}
+              </Popup>
+            </div>
+          )}
+        </div>
+        <div className="fill-quiz">
+          <img src="/wiz1.png" />
+        </div>
+      </div>
     </div>
-  </div>     
   );
 }
 
