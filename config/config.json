@@ -1,21 +1,21 @@
 {
   "development": {
     "username": "zwrxldqy",
-    "password": "process.env.PASSWORD",
+    "password": "EWGVlAaZysUApj06BYCIt3TWAnwFLLPu",
     "database": "zwrxldqy",
     "host": "fanny.db.elephantsql.com",
     "dialect": "postgres"
   },
   "test": {
     "username": "zwrxldqy",
-    "password": "process.env.PASSWORD",
+    "password": "EWGVlAaZysUApj06BYCIt3TWAnwFLLPu",
     "database": "zwrxldqy",
     "host": "fanny.db.elephantsql.com",
     "dialect": "postgres"
   },
   "production": {
     "username": "zwrxldqy",
-    "password": "process.env.PASSWORD",
+    "password": "EWGVlAaZysUApj06BYCIt3TWAnwFLLPu",
     "database": "zwrxldqy",
     "host": "fanny.db.elephantsql.com",
     "dialect": "postgres"
