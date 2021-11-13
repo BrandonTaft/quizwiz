@@ -53,4 +53,3 @@ https://user-images.githubusercontent.com/86688411/140661143-ea00f393-fde1-4329-
 
  <h2 align="center">Thank You For Stopping By!</h2> 
 <p align='center'>For enquiries or empolyment oppurtunities, please reach out at <a href="mailto:btaftcan@gmail.com">btaftcan@gmail.com</a> or over on <a href="https://www.linkedin.com/in/brandonmtaft">LinkedIn</a>.</p>
-
