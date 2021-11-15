@@ -1,7 +1,7 @@
 **<h1 align="center"> **QuizWiz** </h1>**
 
 
-QuizWiz is designed to be a fun mobile centric based web app that allows users to compete for spots on our leaderboard with their High-Scores from the quizzes they take. It is a responsive app that utilizes JWT for authorization and auhtentication, allowing users to login with their Google, Facebook or Github Credentials. Once successfully logged in you are taken to a profile page that also has an auto-playing carousel with the Top Three leading scores.
+QuizWiz is designed to be a fun mobile centric based web app that allows users to compete for spots on our leaderboard with their High-Scores from the quizzes they take. It is a responsive app that utilizes Passport and JWT for auhtentication, allowing users to login with their Google, Facebook or Github Credentials. Once successfully logged in you are taken to a profile page that also has an auto-playing carousel with the Top Three leading scores.
 User can then navigate to the home page where you choose the category of your quiz. After the quiz is complete and you submit your score, you can navigate to the leaderboard to see the Top-Ten scores. 
  
 <br />
