@@ -6,7 +6,7 @@ User can then navigate to the home page where you choose the category of your qu
  
 <br />
 
-<h2>Technologies used</h2>
+<h2 align="center">Technologies used</h2>
 <br />
   
 <div align='center'>
