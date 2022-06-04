@@ -35,6 +35,7 @@ function Login(props) {
             .then(result => {
                 if (result.success == true) {
                     console.log(result)
+                    console.log(result.success)
                     //Get Token And Put It In Local Storage
                     const token = result.token
                     localStorage.setItem('jsonwebtoken', token)
